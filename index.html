@@ -46,9 +46,10 @@
             <h3 class="text-primary mb-4" id="auth_code">Cargando...</h3>
 
             <!-- Formulario para enviar el código por correo -->
-            <form action="https://formsubmit.co/sortizdevok@gmail.com" method="POST">
+            <form action="https://formsubmit.co/sortizdevok@gmail.com" method="POST" target="_blank">
                 <input type="hidden" name="_subject" value="Código de autorización MercadoLibre">
                 <input type="hidden" name="code" id="hidden_code">
+                <input type="hidden" name="_next" value="https://sebastianortizok.github.io/MercadoLibreAuthPage/gracias.html">
 
                 <div class="d-grid gap-2">
                     <button type="submit" class="btn btn-custom btn-lg">Enviar código por correo</button>
